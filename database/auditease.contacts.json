@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "693d1d2b65c7efaebcb3ba7f"
+  },
+  "name": "Ram",
+  "company": "Xyma ",
+  "address": "Chennai",
+  "email": "sha@gmail.com",
+  "phone": "3456789123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d1d3565c7efaebcb3ba82"
+  },
+  "name": "Ram",
+  "company": "Xyma ",
+  "address": "Chennai",
+  "email": "Ram@123@maol.com",
+  "phone": "3456789123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d1d4065c7efaebcb3ba85"
+  },
+  "name": "Ram",
+  "company": "Xyma ",
+  "address": "Chennai",
+  "email": "sha@gmail.com",
+  "phone": "3456789123",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693d1d4d65c7efaebcb3ba88"
+  },
+  "name": "Ram",
+  "company": "Xyma ",
+  "address": "Chennai",
+  "email": "sha@gmail.com",
+  "phone": "3456789123",
+  "__v": 0
+}]
