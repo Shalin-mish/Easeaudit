@@ -1,9 +1,15 @@
 import mongoose from "mongoose";
 
-export default mongoose.model(
-  "Article",
-  new mongoose.Schema({
-    title: String,
-    description: String,
-  })
-);
+const articleSchema = new mongoose.Schema({
+  name: String,
+  task: String,
+  deadline: Date,
+  past: String,
+  status: {
+    type: String,
+    enum: ["onWork", "available", "onLeave"],
+    default: "onWork",
+  },
+});
+
+export default mongoose.model("Article", articleSchema);

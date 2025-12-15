@@ -3,25 +3,36 @@ import Article from "../models/Article.js";
 
 const router = express.Router();
 
-// GET all articles
+/* MAIN ARTICLES */
 router.get("/", async (req, res) => {
-  try {
-    const articles = await Article.find();
-    res.json(articles);
-  } catch (err) {
-    res.status(500).json({ message: err.message });
-  }
+  const articles = await Article.find({ status: "onWork" });
+  res.json(articles);
 });
 
-// CREATE article
+/* AVAILABLE ARTICLES */
+router.get("/available", async (req, res) => {
+  const available = await Article.find({ status: "available" });
+  res.json(available);
+});
+
+/* STATUS COUNTS */
+router.get("/status", async (req, res) => {
+  const total = await Article.countDocuments();
+  const onWork = await Article.countDocuments({ status: "onWork" });
+  const available = await Article.countDocuments({ status: "available" });
+  const onLeave = await Article.countDocuments({ status: "onLeave" });
+
+  res.json({
+    onWork: Math.round((onWork / total) * 100),
+    available: Math.round((available / total) * 100),
+    onLeave: Math.round((onLeave / total) * 100),
+  });
+});
+
+/* ADD ARTICLE */
 router.post("/", async (req, res) => {
-  try {
-    const article = new Article(req.body);
-    await article.save();
-    res.json(article);
-  } catch (err) {
-    res.status(400).json({ message: err.message });
-  }
+  const article = await Article.create(req.body);
+  res.json(article);
 });
 
 export default router;

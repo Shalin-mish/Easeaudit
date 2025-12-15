@@ -1,0 +1,204 @@
+[{
+  "_id": {
+    "$oid": "693ff9816dd50851a0dbe8a2"
+  },
+  "name": "Emily B",
+  "task": "Prepare and organize documents from ABC Manufacturing for auditor review.",
+  "deadline": "2024-06-16",
+  "past": "Reviewed financial documentation for accuracy and compliance.",
+  "email": "emilyb@gmail.com",
+  "createdAt": {
+    "$date": "2025-12-15T12:05:21.207Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T12:05:21.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ff99b6dd50851a0dbe8a5"
+  },
+  "name": "John S",
+  "task": "Compile and format data from XYZ Corporation as requested.",
+  "deadline": "2024-05-26",
+  "past": "Conducted internal controls testing.",
+  "email": "johns@gmail.com",
+  "createdAt": {
+    "$date": "2025-12-15T12:05:47.133Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T12:05:47.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ff9ac6dd50851a0dbe8a7"
+  },
+  "name": "Michael J",
+  "task": "Explain PQR Consulting audit processes to junior auditors.",
+  "deadline": "2024-06-02",
+  "past": "Prepared audit workpapers and reports.",
+  "email": "michaelj@gmail.com",
+  "createdAt": {
+    "$date": "2025-12-15T12:06:04.615Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T12:06:04.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ff9bb6dd50851a0dbe8a9"
+  },
+  "name": "Sarah W",
+  "task": "Assist in testing internal controls at LMN Enterprises.",
+  "deadline": "2024-05-12",
+  "past": "Identified discrepancies in financial records.",
+  "email": "sarahw@gmail.com",
+  "createdAt": {
+    "$date": "2025-12-15T12:06:19.795Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T12:06:19.795Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ff9e86dd50851a0dbe8ab"
+  },
+  "name": "Ritika Sharma",
+  "task": "Verify GST filings and supporting documents for Q4 review.",
+  "deadline": "2024-07-10",
+  "past": "Handled GST reconciliation for multiple clients.",
+  "email": "ritika.sharma@gmail.com",
+  "createdAt": {
+    "$date": "2025-12-15T12:07:04.467Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T12:07:04.467Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ff9f76dd50851a0dbe8ad"
+  },
+  "name": "Aman Verma",
+  "task": "Prepare audit checklist for mid-year internal audit.",
+  "deadline": "2024-06-28",
+  "past": "Designed internal audit frameworks.",
+  "email": "aman.verma@gmail.com",
+  "createdAt": {
+    "$date": "2025-12-15T12:07:19.485Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T12:07:19.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ffa066dd50851a0dbe8af"
+  },
+  "name": "Neha Gupta",
+  "task": "Review vendor invoices and payment approvals.",
+  "deadline": "2024-07-03",
+  "past": "Performed expense audits for retail clients.",
+  "email": "neha.gupta@gmail.com",
+  "createdAt": {
+    "$date": "2025-12-15T12:07:34.064Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-15T12:07:34.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69400aa6eda724f7c2ab5251"
+  },
+  "name": "Emily Brown",
+  "task": "Prepare financial audit documentation",
+  "deadline": {
+    "$date": "2025-01-20T00:00:00.000Z"
+  },
+  "past": "Reviewed balance sheets and ledgers",
+  "status": "onWork",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69400ab4eda724f7c2ab5253"
+  },
+  "name": "John Smith",
+  "task": "Internal control testing",
+  "deadline": {
+    "$date": "2025-01-25T00:00:00.000Z"
+  },
+  "past": "Completed internal audit planning",
+  "status": "onWork",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69400ac0eda724f7c2ab5255"
+  },
+  "name": "Sophia Williams",
+  "task": "Compliance checklist verification",
+  "deadline": {
+    "$date": "2025-02-05T00:00:00.000Z"
+  },
+  "past": "Assisted in compliance reporting",
+  "status": "onWork",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69400acfeda724f7c2ab5257"
+  },
+  "name": "Olivia Martinez",
+  "task": "External audit coordination",
+  "deadline": {
+    "$date": "2025-02-20T00:00:00.000Z"
+  },
+  "past": "Prepared audit schedules",
+  "status": "onWork",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69400ae0eda724f7c2ab5259"
+  },
+  "name": "Noah Anderson",
+  "task": "—",
+  "deadline": null,
+  "past": "Completed forensic audit assistance",
+  "status": "available",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69400aebeda724f7c2ab525b"
+  },
+  "name": "Emma Thompson",
+  "task": "—",
+  "deadline": null,
+  "past": "Handled IT audit documentation",
+  "status": "available",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69400af6eda724f7c2ab525d"
+  },
+  "name": "Liam Wilson",
+  "task": "—",
+  "deadline": null,
+  "past": "Supported financial audit team",
+  "status": "available",
+  "__v": 0
+}]

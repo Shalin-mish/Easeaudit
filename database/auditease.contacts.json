@@ -41,4 +41,70 @@
   "email": "sha@gmail.com",
   "phone": "3456789123",
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693f9f2d5dc7c74e24ec9336"
+  },
+  "name": "shalu",
+  "company": "wz",
+  "address": "lucknow",
+  "email": "sha@gmail.com",
+  "phone": "7865432891",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693fa17f2e2e8a70c969c113"
+  },
+  "name": "Tannu",
+  "company": "XYZ",
+  "address": "Delhi",
+  "email": "tanu@gmail.com",
+  "phone": "5678943256",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693fb771e5ab1501d8227e29"
+  },
+  "name": "ERA",
+  "company": "yxs",
+  "address": "lucknow",
+  "email": "era@gmail.com",
+  "phone": "9567435679",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ff2df267fd934fec31a23"
+  },
+  "name": "Shirley H",
+  "company": "TechSolutions Inc",
+  "address": "Delhi",
+  "email": "shirley@gmail.com",
+  "phone": "9876543210",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ff301267fd934fec31a25"
+  },
+  "name": "George V",
+  "company": "GlobalEats",
+  "address": "Mumbai",
+  "email": "george@gmail.com",
+  "phone": "8765432109",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "693ff310267fd934fec31a27"
+  },
+  "name": "Emily S",
+  "company": "GreenEnergy",
+  "address": "Bangalore",
+  "email": "emily@gmail.com",
+  "phone": "7654321098",
+  "__v": 0
 }]
