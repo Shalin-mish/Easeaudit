@@ -11,15 +11,6 @@ export default function Audits() {
   if (!data) return <p>Loading...</p>;
 
   const months = Object.keys(data.monthly);
-  const types = [
-    "financial",
-    "internal",
-    "external",
-    "compliance",
-    "it",
-    "forensic",
-    "performance",
-  ];
 
   return (
     <>
@@ -28,23 +19,35 @@ export default function Audits() {
         <h3>Audit Overview</h3>
 
         <div className="fake-chart">
-          {months.map(m =>
-            types.map((t, i) => (
+          {months.map((month) => {
+            const total =
+              (data.monthly[month].financial || 0) +
+              (data.monthly[month].internal || 0) +
+              (data.monthly[month].external || 0) +
+              (data.monthly[month].compliance || 0) +
+              (data.monthly[month].it || 0) +
+              (data.monthly[month].forensic || 0) +
+              (data.monthly[month].performance || 0);
+
+            return (
               <div
-                key={`${m}-${t}`}
-                className={`bar ${i % 2 === 0 ? "blue" : "light"}`}
-                style={{ height: `${data.monthly[m][t] * 3}px` }}
+                key={month}
+                className="bar blue"
+                style={{ height: `${total * 25}px` }}
+                title={`${month}: ${total} audits`}
               />
-            ))
-          )}
+            );
+          })}
         </div>
       </div>
 
+      {/* TOTAL */}
       <div className="card wide">
         <h4>Total Audits</h4>
         <StatRow {...data.total} />
       </div>
 
+      {/* CARDS */}
       <div className="grid-3">
         <AuditCard title="Internal Audit" {...data.internal} />
         <AuditCard title="Financial Audit" {...data.financial} />
